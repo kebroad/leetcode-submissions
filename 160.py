@@ -15,7 +15,7 @@ class Solution:
                 headA = headA.next
         elif(len_b > len_a):
             diff = len_b - len_a
-            for i in range(diff):
+            for _ in range(diff):
                 headB = headB.next
         while headA and headB:
             if headA is headB:
