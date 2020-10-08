@@ -37,8 +37,3 @@ class Solution:
             for key in val1:
                 matches.append(self.flipEquiv(val1[key], val2[key]))
             return all(matches)
-
-
-        
-
-        
